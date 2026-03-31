@@ -8,31 +8,52 @@
         "local"
     ],
     "name": {
+        "ar": "Changelogs",
+        "da": "Changelogs",
+        "de": "Changelogs",
         "en": "Changelogs",
-        "nl": "Changelogs"
+        "es": "Changelogs",
+        "fr": "Changelogs",
+        "it": "Changelogs",
+        "ko": "Changelogs",
+        "nl": "Changelogs",
+        "no": "Changelogs",
+        "pl": "Changelogs",
+        "ru": "Changelogs",
+        "sv": "Changelogs"
     },
     "description": {
+        "ar": "تتبع تحديثات تطبيقات Homey المثبتة واحصل على إشعارات مع سجلات التغييرات.",
+        "da": "Følg opdateringer af dine installerede Homey-apps og få besked med ændringslogs.",
+        "de": "Verfolge Updates deiner installierten Homey-Apps und erhalte Benachrichtigungen mit Changelogs.",
         "en": "Track updates of your installed Homey apps and get notified with changelogs.",
-        "nl": "Volg updates van je geïnstalleerde Homey-apps en ontvang meldingen met changelogs."
+        "es": "Sigue las actualizaciones de tus aplicaciones Homey instaladas y recibe notificaciones con registros de cambios.",
+        "fr": "Suivez les mises à jour de vos applications Homey installées et recevez des notifications avec les changelogs.",
+        "it": "Tieni traccia degli aggiornamenti delle tue app Homey installate e ricevi notifiche con i changelog.",
+        "ko": "설치된 Homey 앱의 업데이트를 추적하고 변경 로그 알림을 받으세요.",
+        "nl": "Volg updates van je geïnstalleerde Homey-apps en ontvang meldingen met changelogs.",
+        "no": "Følg oppdateringer av dine installerte Homey-apper og bli varslet med endringslogger.",
+        "pl": "Śledź aktualizacje zainstalowanych aplikacji Homey i otrzymuj powiadomienia z dziennikami zmian.",
+        "ru": "Отслеживайте обновления установленных приложений Homey и получайте уведомления с журналами изменений.",
+        "sv": "Följ uppdateringar av dina installerade Homey-appar och få aviseringar med ändringsloggar."
     },
     "category": [
         "tools"
     ],
     "tags": {
-        "en": [
-            "changelog",
-            "updates",
-            "apps",
-            "notifications",
-            "version"
-        ],
-        "nl": [
-            "changelog",
-            "updates",
-            "apps",
-            "meldingen",
-            "versie"
-        ]
+        "ar": ["سجل التغييرات", "تحديثات", "تطبيقات", "إشعارات", "إصدار"],
+        "da": ["changelog", "opdateringer", "apps", "notifikationer", "version"],
+        "de": ["Changelog", "Updates", "Apps", "Benachrichtigungen", "Version"],
+        "en": ["changelog", "updates", "apps", "notifications", "version"],
+        "es": ["changelog", "actualizaciones", "aplicaciones", "notificaciones", "versión"],
+        "fr": ["changelog", "mises à jour", "applications", "notifications", "version"],
+        "it": ["changelog", "aggiornamenti", "applicazioni", "notifiche", "versione"],
+        "ko": ["변경 로그", "업데이트", "앱", "알림", "버전"],
+        "nl": ["changelog", "updates", "apps", "meldingen", "versie"],
+        "no": ["endringslogg", "oppdateringer", "apper", "varsler", "versjon"],
+        "pl": ["dziennik zmian", "aktualizacje", "aplikacje", "powiadomienia", "wersja"],
+        "ru": ["журнал изменений", "обновления", "приложения", "уведомления", "версия"],
+        "sv": ["ändringslogg", "uppdateringar", "appar", "aviseringar", "version"]
     },
     "permissions": [
         "homey:manager:api"

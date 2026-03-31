@@ -1,28 +1,83 @@
 {
     "id": "get_changelog",
     "title": {
+        "ar": "احصل على آخر سجل تغييرات",
+        "da": "Hent den seneste changelog",
+        "de": "Neuesten Changelog abrufen",
         "en": "Get the latest changelog",
-        "nl": "Haal de laatste changelog op"
+        "es": "Obtener el último registro de cambios",
+        "fr": "Obtenir le dernier changelog",
+        "it": "Ottieni l'ultimo changelog",
+        "ko": "최신 변경 로그 가져오기",
+        "nl": "Haal de laatste changelog op",
+        "no": "Hent den siste endringsloggen",
+        "pl": "Pobierz najnowszy dziennik zmian",
+        "ru": "Получить последний журнал изменений",
+        "sv": "Hämta den senaste ändringsloggen"
     },
     "titleFormatted": {
+        "ar": "احصل على آخر سجل تغييرات لـ [[app]]",
+        "da": "Hent den seneste changelog for [[app]]",
+        "de": "Neuesten Changelog von [[app]] abrufen",
         "en": "Get the latest changelog of [[app]]",
-        "nl": "Haal de laatste changelog op van [[app]]"
+        "es": "Obtener el último registro de cambios de [[app]]",
+        "fr": "Obtenir le dernier changelog de [[app]]",
+        "it": "Ottieni l'ultimo changelog di [[app]]",
+        "ko": "[[app]]의 최신 변경 로그 가져오기",
+        "nl": "Haal de laatste changelog op van [[app]]",
+        "no": "Hent den siste endringsloggen for [[app]]",
+        "pl": "Pobierz najnowszy dziennik zmian [[app]]",
+        "ru": "Получить последний журнал изменений [[app]]",
+        "sv": "Hämta den senaste ändringsloggen för [[app]]"
     },
     "hint": {
+        "ar": "يسترجع آخر إدخال في سجل التغييرات للتطبيق المحدد.",
+        "da": "Henter den seneste changelog-post for den valgte app.",
+        "de": "Ruft den neuesten Changelog-Eintrag für die ausgewählte App ab.",
         "en": "Retrieves the latest changelog entry for the selected app.",
-        "nl": "Haalt de laatste changelog op voor de geselecteerde app."
+        "es": "Recupera la última entrada del registro de cambios de la aplicación seleccionada.",
+        "fr": "Récupère la dernière entrée du changelog pour l'application sélectionnée.",
+        "it": "Recupera l'ultima voce del changelog per l'app selezionata.",
+        "ko": "선택한 앱의 최신 변경 로그 항목을 가져옵니다.",
+        "nl": "Haalt de laatste changelog op voor de geselecteerde app.",
+        "no": "Henter den siste endringslogg-oppføringen for den valgte appen.",
+        "pl": "Pobiera najnowszy wpis w dzienniku zmian dla wybranej aplikacji.",
+        "ru": "Получает последнюю запись журнала изменений для выбранного приложения.",
+        "sv": "Hämtar den senaste ändringslogg-posten för den valda appen."
     },
     "args": [
         {
             "type": "autocomplete",
             "name": "app",
             "title": {
+                "ar": "تطبيق",
+                "da": "App",
+                "de": "App",
                 "en": "App",
-                "nl": "App"
+                "es": "Aplicación",
+                "fr": "Application",
+                "it": "App",
+                "ko": "앱",
+                "nl": "App",
+                "no": "App",
+                "pl": "Aplikacja",
+                "ru": "Приложение",
+                "sv": "App"
             },
             "placeholder": {
+                "ar": "ابحث عن تطبيق...",
+                "da": "Søg efter en app...",
+                "de": "Nach einer App suchen...",
                 "en": "Search for an app...",
-                "nl": "Zoek een app..."
+                "es": "Buscar una aplicación...",
+                "fr": "Rechercher une application...",
+                "it": "Cerca un'app...",
+                "ko": "앱 검색...",
+                "nl": "Zoek een app...",
+                "no": "Søk etter en app...",
+                "pl": "Szukaj aplikacji...",
+                "ru": "Поиск приложения...",
+                "sv": "Sök efter en app..."
             }
         }
     ],
@@ -31,32 +86,76 @@
             "name": "app_name",
             "type": "string",
             "title": {
+                "ar": "اسم التطبيق",
+                "da": "App-navn",
+                "de": "App-Name",
                 "en": "App name",
-                "nl": "App-naam"
+                "es": "Nombre de la aplicación",
+                "fr": "Nom de l'application",
+                "it": "Nome dell'app",
+                "ko": "앱 이름",
+                "nl": "App-naam",
+                "no": "App-navn",
+                "pl": "Nazwa aplikacji",
+                "ru": "Название приложения",
+                "sv": "Appnamn"
             }
         },
         {
             "name": "version",
             "type": "string",
             "title": {
+                "ar": "الإصدار",
+                "da": "Version",
+                "de": "Version",
                 "en": "Version",
-                "nl": "Versie"
+                "es": "Versión",
+                "fr": "Version",
+                "it": "Versione",
+                "ko": "버전",
+                "nl": "Versie",
+                "no": "Versjon",
+                "pl": "Wersja",
+                "ru": "Версия",
+                "sv": "Version"
             }
         },
         {
             "name": "changelog",
             "type": "string",
             "title": {
+                "ar": "سجل التغييرات",
+                "da": "Changelog",
+                "de": "Changelog",
                 "en": "Changelog",
-                "nl": "Changelog"
+                "es": "Registro de cambios",
+                "fr": "Changelog",
+                "it": "Changelog",
+                "ko": "변경 로그",
+                "nl": "Changelog",
+                "no": "Endringslogg",
+                "pl": "Dziennik zmian",
+                "ru": "Журнал изменений",
+                "sv": "Ändringslogg"
             }
         },
         {
             "name": "date",
             "type": "string",
             "title": {
+                "ar": "تاريخ الإصدار",
+                "da": "Udgivelsesdato",
+                "de": "Veröffentlichungsdatum",
                 "en": "Release date",
-                "nl": "Releasedatum"
+                "es": "Fecha de lanzamiento",
+                "fr": "Date de publication",
+                "it": "Data di rilascio",
+                "ko": "출시일",
+                "nl": "Releasedatum",
+                "no": "Utgivelsesdato",
+                "pl": "Data wydania",
+                "ru": "Дата выпуска",
+                "sv": "Utgivningsdatum"
             }
         }
     ]

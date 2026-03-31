@@ -1,64 +1,163 @@
 {
     "id": "app_updated",
     "title": {
+        "ar": "تم تحديث تطبيق",
+        "da": "En app er blevet opdateret",
+        "de": "Eine App wurde aktualisiert",
         "en": "An app has been updated",
-        "nl": "Een app is bijgewerkt"
+        "es": "Una aplicación ha sido actualizada",
+        "fr": "Une application a été mise à jour",
+        "it": "Un'app è stata aggiornata",
+        "ko": "앱이 업데이트되었습니다",
+        "nl": "Een app is bijgewerkt",
+        "no": "En app har blitt oppdatert",
+        "pl": "Aplikacja została zaktualizowana",
+        "ru": "Приложение было обновлено",
+        "sv": "En app har uppdaterats"
     },
     "titleFormatted": {
+        "ar": "تم تحديث تطبيق مثبت",
+        "da": "En installeret app er blevet opdateret",
+        "de": "Eine installierte App wurde aktualisiert",
         "en": "An installed app has been updated",
-        "nl": "Een geïnstalleerde app is bijgewerkt"
+        "es": "Una aplicación instalada ha sido actualizada",
+        "fr": "Une application installée a été mise à jour",
+        "it": "Un'app installata è stata aggiornata",
+        "ko": "설치된 앱이 업데이트되었습니다",
+        "nl": "Een geïnstalleerde app is bijgewerkt",
+        "no": "En installert app har blitt oppdatert",
+        "pl": "Zainstalowana aplikacja została zaktualizowana",
+        "ru": "Установленное приложение было обновлено",
+        "sv": "En installerad app har uppdaterats"
     },
     "hint": {
+        "ar": "يتم التشغيل عند تحديث تطبيق Homey مثبت إلى إصدار جديد.",
+        "da": "Udløses når en installeret Homey-app er blevet opdateret til en ny version.",
+        "de": "Wird ausgelöst, wenn eine installierte Homey-App auf eine neue Version aktualisiert wurde.",
         "en": "Fires when an installed Homey app has been updated to a new version.",
-        "nl": "Vuurt af wanneer een geïnstalleerde Homey-app is bijgewerkt naar een nieuwe versie."
+        "es": "Se activa cuando una aplicación Homey instalada ha sido actualizada a una nueva versión.",
+        "fr": "Se déclenche lorsqu'une application Homey installée a été mise à jour vers une nouvelle version.",
+        "it": "Si attiva quando un'app Homey installata è stata aggiornata a una nuova versione.",
+        "ko": "설치된 Homey 앱이 새 버전으로 업데이트되었을 때 실행됩니다.",
+        "nl": "Vuurt af wanneer een geïnstalleerde Homey-app is bijgewerkt naar een nieuwe versie.",
+        "no": "Utløses når en installert Homey-app har blitt oppdatert til en ny versjon.",
+        "pl": "Uruchamia się, gdy zainstalowana aplikacja Homey została zaktualizowana do nowej wersji.",
+        "ru": "Срабатывает, когда установленное приложение Homey обновлено до новой версии.",
+        "sv": "Utlöses när en installerad Homey-app har uppdaterats till en ny version."
     },
     "tokens": [
         {
             "name": "app_name",
             "type": "string",
             "title": {
+                "ar": "اسم التطبيق",
+                "da": "App-navn",
+                "de": "App-Name",
                 "en": "App name",
-                "nl": "App-naam"
+                "es": "Nombre de la aplicación",
+                "fr": "Nom de l'application",
+                "it": "Nome dell'app",
+                "ko": "앱 이름",
+                "nl": "App-naam",
+                "no": "App-navn",
+                "pl": "Nazwa aplikacji",
+                "ru": "Название приложения",
+                "sv": "Appnamn"
             }
         },
         {
             "name": "app_id",
             "type": "string",
             "title": {
+                "ar": "معرف التطبيق",
+                "da": "App-ID",
+                "de": "App-ID",
                 "en": "App ID",
-                "nl": "App-ID"
+                "es": "ID de la aplicación",
+                "fr": "ID de l'application",
+                "it": "ID dell'app",
+                "ko": "앱 ID",
+                "nl": "App-ID",
+                "no": "App-ID",
+                "pl": "ID aplikacji",
+                "ru": "ID приложения",
+                "sv": "App-ID"
             }
         },
         {
             "name": "version",
             "type": "string",
             "title": {
+                "ar": "الإصدار",
+                "da": "Version",
+                "de": "Version",
                 "en": "Version",
-                "nl": "Versie"
+                "es": "Versión",
+                "fr": "Version",
+                "it": "Versione",
+                "ko": "버전",
+                "nl": "Versie",
+                "no": "Versjon",
+                "pl": "Wersja",
+                "ru": "Версия",
+                "sv": "Version"
             }
         },
         {
             "name": "previous_version",
             "type": "string",
             "title": {
+                "ar": "الإصدار السابق",
+                "da": "Tidligere version",
+                "de": "Vorherige Version",
                 "en": "Previous version",
-                "nl": "Vorige versie"
+                "es": "Versión anterior",
+                "fr": "Version précédente",
+                "it": "Versione precedente",
+                "ko": "이전 버전",
+                "nl": "Vorige versie",
+                "no": "Forrige versjon",
+                "pl": "Poprzednia wersja",
+                "ru": "Предыдущая версия",
+                "sv": "Föregående version"
             }
         },
         {
             "name": "changelog",
             "type": "string",
             "title": {
+                "ar": "سجل التغييرات",
+                "da": "Changelog",
+                "de": "Changelog",
                 "en": "Changelog",
-                "nl": "Changelog"
+                "es": "Registro de cambios",
+                "fr": "Changelog",
+                "it": "Changelog",
+                "ko": "변경 로그",
+                "nl": "Changelog",
+                "no": "Endringslogg",
+                "pl": "Dziennik zmian",
+                "ru": "Журнал изменений",
+                "sv": "Ändringslogg"
             }
         },
         {
             "name": "date",
             "type": "string",
             "title": {
+                "ar": "تاريخ الإصدار",
+                "da": "Udgivelsesdato",
+                "de": "Veröffentlichungsdatum",
                 "en": "Release date",
-                "nl": "Releasedatum"
+                "es": "Fecha de lanzamiento",
+                "fr": "Date de publication",
+                "it": "Data di rilascio",
+                "ko": "출시일",
+                "nl": "Releasedatum",
+                "no": "Utgivelsesdato",
+                "pl": "Data wydania",
+                "ru": "Дата выпуска",
+                "sv": "Utgivningsdatum"
             }
         }
     ]

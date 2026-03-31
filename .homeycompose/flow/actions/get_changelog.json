@@ -1,0 +1,63 @@
+{
+    "id": "get_changelog",
+    "title": {
+        "en": "Get the latest changelog",
+        "nl": "Haal de laatste changelog op"
+    },
+    "titleFormatted": {
+        "en": "Get the latest changelog of [[app]]",
+        "nl": "Haal de laatste changelog op van [[app]]"
+    },
+    "hint": {
+        "en": "Retrieves the latest changelog entry for the selected app.",
+        "nl": "Haalt de laatste changelog op voor de geselecteerde app."
+    },
+    "args": [
+        {
+            "type": "autocomplete",
+            "name": "app",
+            "title": {
+                "en": "App",
+                "nl": "App"
+            },
+            "placeholder": {
+                "en": "Search for an app...",
+                "nl": "Zoek een app..."
+            }
+        }
+    ],
+    "tokens": [
+        {
+            "name": "app_name",
+            "type": "string",
+            "title": {
+                "en": "App name",
+                "nl": "App-naam"
+            }
+        },
+        {
+            "name": "version",
+            "type": "string",
+            "title": {
+                "en": "Version",
+                "nl": "Versie"
+            }
+        },
+        {
+            "name": "changelog",
+            "type": "string",
+            "title": {
+                "en": "Changelog",
+                "nl": "Changelog"
+            }
+        },
+        {
+            "name": "date",
+            "type": "string",
+            "title": {
+                "en": "Release date",
+                "nl": "Releasedatum"
+            }
+        }
+    ]
+}

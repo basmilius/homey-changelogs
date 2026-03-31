@@ -1,0 +1,195 @@
+{
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
+  "id": "com.basmilius.changelogs",
+  "version": "1.0.0",
+  "compatibility": ">=12.4.0",
+  "sdk": 3,
+  "brandColor": "#22c55e",
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "Changelogs",
+    "nl": "Changelogs"
+  },
+  "description": {
+    "en": "Track updates of your installed Homey apps and get notified with changelogs.",
+    "nl": "Volg updates van je geïnstalleerde Homey-apps en ontvang meldingen met changelogs."
+  },
+  "category": [
+    "tools"
+  ],
+  "tags": {
+    "en": [
+      "changelog",
+      "updates",
+      "apps",
+      "notifications",
+      "version"
+    ],
+    "nl": [
+      "changelog",
+      "updates",
+      "apps",
+      "meldingen",
+      "versie"
+    ]
+  },
+  "permissions": [
+    "homey:manager:api"
+  ],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Bas Milius",
+    "email": "bas@mili.us"
+  },
+  "homepage": "https://bas.dev",
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "basmilius"
+      },
+      "githubSponsors": {
+        "username": "basmilius"
+      }
+    }
+  },
+  "flow": {
+    "triggers": [
+      {
+        "id": "app_updated",
+        "title": {
+          "en": "An app has been updated",
+          "nl": "Een app is bijgewerkt"
+        },
+        "titleFormatted": {
+          "en": "An installed app has been updated",
+          "nl": "Een geïnstalleerde app is bijgewerkt"
+        },
+        "hint": {
+          "en": "Fires when an installed Homey app has been updated to a new version.",
+          "nl": "Vuurt af wanneer een geïnstalleerde Homey-app is bijgewerkt naar een nieuwe versie."
+        },
+        "tokens": [
+          {
+            "name": "app_name",
+            "type": "string",
+            "title": {
+              "en": "App name",
+              "nl": "App-naam"
+            }
+          },
+          {
+            "name": "app_id",
+            "type": "string",
+            "title": {
+              "en": "App ID",
+              "nl": "App-ID"
+            }
+          },
+          {
+            "name": "version",
+            "type": "string",
+            "title": {
+              "en": "Version",
+              "nl": "Versie"
+            }
+          },
+          {
+            "name": "previous_version",
+            "type": "string",
+            "title": {
+              "en": "Previous version",
+              "nl": "Vorige versie"
+            }
+          },
+          {
+            "name": "changelog",
+            "type": "string",
+            "title": {
+              "en": "Changelog",
+              "nl": "Changelog"
+            }
+          },
+          {
+            "name": "date",
+            "type": "string",
+            "title": {
+              "en": "Release date",
+              "nl": "Releasedatum"
+            }
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "get_changelog",
+        "title": {
+          "en": "Get the latest changelog",
+          "nl": "Haal de laatste changelog op"
+        },
+        "titleFormatted": {
+          "en": "Get the latest changelog of [[app]]",
+          "nl": "Haal de laatste changelog op van [[app]]"
+        },
+        "hint": {
+          "en": "Retrieves the latest changelog entry for the selected app.",
+          "nl": "Haalt de laatste changelog op voor de geselecteerde app."
+        },
+        "args": [
+          {
+            "type": "autocomplete",
+            "name": "app",
+            "title": {
+              "en": "App",
+              "nl": "App"
+            },
+            "placeholder": {
+              "en": "Search for an app...",
+              "nl": "Zoek een app..."
+            }
+          }
+        ],
+        "tokens": [
+          {
+            "name": "app_name",
+            "type": "string",
+            "title": {
+              "en": "App name",
+              "nl": "App-naam"
+            }
+          },
+          {
+            "name": "version",
+            "type": "string",
+            "title": {
+              "en": "Version",
+              "nl": "Versie"
+            }
+          },
+          {
+            "name": "changelog",
+            "type": "string",
+            "title": {
+              "en": "Changelog",
+              "nl": "Changelog"
+            }
+          },
+          {
+            "name": "date",
+            "type": "string",
+            "title": {
+              "en": "Release date",
+              "nl": "Releasedatum"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

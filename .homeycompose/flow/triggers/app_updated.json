@@ -1,0 +1,65 @@
+{
+    "id": "app_updated",
+    "title": {
+        "en": "An app has been updated",
+        "nl": "Een app is bijgewerkt"
+    },
+    "titleFormatted": {
+        "en": "An installed app has been updated",
+        "nl": "Een geïnstalleerde app is bijgewerkt"
+    },
+    "hint": {
+        "en": "Fires when an installed Homey app has been updated to a new version.",
+        "nl": "Vuurt af wanneer een geïnstalleerde Homey-app is bijgewerkt naar een nieuwe versie."
+    },
+    "tokens": [
+        {
+            "name": "app_name",
+            "type": "string",
+            "title": {
+                "en": "App name",
+                "nl": "App-naam"
+            }
+        },
+        {
+            "name": "app_id",
+            "type": "string",
+            "title": {
+                "en": "App ID",
+                "nl": "App-ID"
+            }
+        },
+        {
+            "name": "version",
+            "type": "string",
+            "title": {
+                "en": "Version",
+                "nl": "Versie"
+            }
+        },
+        {
+            "name": "previous_version",
+            "type": "string",
+            "title": {
+                "en": "Previous version",
+                "nl": "Vorige versie"
+            }
+        },
+        {
+            "name": "changelog",
+            "type": "string",
+            "title": {
+                "en": "Changelog",
+                "nl": "Changelog"
+            }
+        },
+        {
+            "name": "date",
+            "type": "string",
+            "title": {
+                "en": "Release date",
+                "nl": "Releasedatum"
+            }
+        }
+    ]
+}

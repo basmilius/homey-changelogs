@@ -1,0 +1,60 @@
+{
+    "id": "com.basmilius.changelogs",
+    "version": "1.0.0",
+    "compatibility": ">=12.4.0",
+    "sdk": 3,
+    "brandColor": "#22c55e",
+    "platforms": [
+        "local"
+    ],
+    "name": {
+        "en": "Changelogs",
+        "nl": "Changelogs"
+    },
+    "description": {
+        "en": "Track updates of your installed Homey apps and get notified with changelogs.",
+        "nl": "Volg updates van je geïnstalleerde Homey-apps en ontvang meldingen met changelogs."
+    },
+    "category": [
+        "tools"
+    ],
+    "tags": {
+        "en": [
+            "changelog",
+            "updates",
+            "apps",
+            "notifications",
+            "version"
+        ],
+        "nl": [
+            "changelog",
+            "updates",
+            "apps",
+            "meldingen",
+            "versie"
+        ]
+    },
+    "permissions": [
+        "homey:manager:api"
+    ],
+    "images": {
+        "small": "/assets/images/small.png",
+        "large": "/assets/images/large.png",
+        "xlarge": "/assets/images/xlarge.png"
+    },
+    "author": {
+        "name": "Bas Milius",
+        "email": "bas@mili.us"
+    },
+    "homepage": "https://bas.dev",
+    "contributing": {
+        "donate": {
+            "paypal": {
+                "username": "basmilius"
+            },
+            "githubSponsors": {
+                "username": "basmilius"
+            }
+        }
+    }
+}

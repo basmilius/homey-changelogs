@@ -1,0 +1,3 @@
+Changelogs ti tiene informato sugli aggiornamenti delle tue app Homey installate. L'app monitora automaticamente tutte le tue app per rilevare cambiamenti di versione e recupera il changelog corrispondente dal Homey App Store ogni volta che viene rilevato un aggiornamento.
+
+Usa la scheda di attivazione per avviare un flusso quando un'app viene aggiornata, con accesso al nome dell'app, alla versione, alla versione precedente e al testo completo del changelog. La scheda azione ti permette di consultare in qualsiasi momento l'ultimo changelog di un'app installata. Che tu voglia una notifica nella timeline, un messaggio push o qualsiasi altra automazione, Changelogs ti fornisce gli elementi necessari.

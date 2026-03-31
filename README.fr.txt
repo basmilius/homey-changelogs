@@ -1,0 +1,3 @@
+Changelogs vous tient informé des mises à jour de vos applications Homey installées. L'application surveille automatiquement toutes vos applications pour détecter les changements de version et récupère le changelog correspondant depuis le Homey App Store dès qu'une mise à jour est détectée.
+
+Utilisez la carte de déclenchement pour lancer un flow lorsqu'une application est mise à jour, avec accès au nom de l'application, à la version, à la version précédente et au texte complet du changelog. La carte d'action vous permet de consulter à tout moment le dernier changelog d'une application installée. Que vous souhaitiez une notification dans la timeline, un message push ou toute autre automatisation, Changelogs vous fournit les éléments nécessaires.

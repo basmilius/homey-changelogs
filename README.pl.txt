@@ -1,0 +1,3 @@
+Changelogs informuje cię o aktualizacjach zainstalowanych aplikacji Homey. Aplikacja automatycznie monitoruje wszystkie twoje aplikacje pod kątem zmian wersji i pobiera odpowiedni dziennik zmian z Homey App Store za każdym razem, gdy wykryta zostanie aktualizacja.
+
+Użyj karty wyzwalacza, aby uruchomić przepływ, gdy aplikacja zostanie zaktualizowana, z dostępem do nazwy aplikacji, wersji, poprzedniej wersji i pełnego tekstu dziennika zmian. Karta akcji pozwala w dowolnym momencie sprawdzić najnowszy dziennik zmian zainstalowanej aplikacji. Niezależnie od tego, czy chcesz otrzymać powiadomienie na osi czasu, wiadomość push czy inną automatyzację, Changelogs dostarcza ci potrzebne elementy.

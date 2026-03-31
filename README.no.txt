@@ -1,0 +1,3 @@
+Changelogs holder deg informert om oppdateringer av dine installerte Homey-apper. Appen overvåker automatisk alle appene dine for versjonsendringer og henter den tilhørende endringsloggen fra Homey App Store når en oppdatering oppdages.
+
+Bruk triggerkort for å starte en flyt når en app har blitt oppdatert, med tilgang til app-navn, versjon, forrige versjon og den fullstendige endringsloggteksten. Aksjonskortet lar deg når som helst slå opp den siste endringsloggen for en installert app. Enten du ønsker et tidslinje-varsel, en push-melding eller en annen automatisering, gir Changelogs deg byggesteinene.

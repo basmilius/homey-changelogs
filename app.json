@@ -146,7 +146,12 @@
     "name": "Bas Milius",
     "email": "bas@mili.us"
   },
+  "bugs": {
+    "url": "https://github.com/basmilius/homey-changelogs/issues"
+  },
   "homepage": "https://bas.dev",
+  "source": "https://github.com/basmilius/homey-changelogs",
+  "support": "https://github.com/basmilius/homey-changelogs/issues",
   "contributing": {
     "donate": {
       "paypal": {

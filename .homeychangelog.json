@@ -2,5 +2,8 @@
     "1.0.0": {
         "en": "Initial release.",
         "nl": "Eerste versie."
+    },
+    "1.0.1": {
+        "en": "Update dependencies."
     }
 }

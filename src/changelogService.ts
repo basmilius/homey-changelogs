@@ -1,6 +1,6 @@
-import { Shortcuts } from '@basmilius/homey-common';
-import type { AppVersionRecord, ChangelogApiResponse, ChangelogsApp, InstalledApp } from './types';
-import { Triggers } from './flow';
+import {Shortcuts} from '@basmilius/homey-common';
+import type {AppVersionRecord, ChangelogApiResponse, ChangelogsApp, InstalledApp} from './types';
+import {Triggers} from './flow';
 
 const CHANGELOG_API_URL = 'https://apps-api.athom.com/api/v1/app';
 const POLL_INTERVAL_MS = 300_000;
@@ -102,16 +102,14 @@ export default class ChangelogService extends Shortcuts<ChangelogsApp> {
 
         const changelogResult = await this.fetchChangelog(app.id, app.version);
 
-        await this.registry
-            .findTrigger(Triggers.AppUpdated)
-            ?.trigger({}, {
-                app_name: app.name,
-                app_id: app.id,
-                version: app.version,
-                previous_version: previousVersion,
-                changelog: changelogResult.text,
-                date: changelogResult.date
-            });
+        await this.registry.fireTrigger(Triggers.AppUpdated, {}, {
+            app_name: app.name,
+            app_id: app.id,
+            version: app.version,
+            previous_version: previousVersion,
+            changelog: changelogResult.text,
+            date: changelogResult.date
+        });
     }
 
     /**

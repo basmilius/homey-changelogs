@@ -9,5 +9,9 @@
     "1.0.2": {
         "en": "Improved trigger logic. Update dependencies.",
         "nl": "Verbeterde trigger logica. Update dependencies."
+    },
+    "1.0.3": {
+        "en": "Update dependencies. Optimize app-size.",
+        "nl": "Update dependencies. App-grootte geoptimaliseerd."
     }
 }

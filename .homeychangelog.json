@@ -13,5 +13,9 @@
     "1.0.3": {
         "en": "Update dependencies. Optimize app-size.",
         "nl": "Update dependencies. App-grootte geoptimaliseerd."
+    },
+    "1.1.0": {
+        "en": "Added app settings page with an overview of all installed apps and their changelogs. Tap any app to view its full version history.",
+        "nl": "Instellingenpagina toegevoegd met een overzicht van alle geïnstalleerde apps en hun changelogs. Tik op een app om de volledige versiehistorie te bekijken."
     }
 }

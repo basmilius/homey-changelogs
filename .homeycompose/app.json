@@ -1,6 +1,6 @@
 {
   "id": "com.basmilius.changelogs",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "compatibility": ">=12.4.0",
   "sdk": 3,
   "brandColor": "#22c55e",
@@ -159,6 +159,16 @@
       "githubSponsors": {
         "username": "basmilius"
       }
+    }
+  },
+  "api": {
+    "getApps": {
+      "method": "GET",
+      "path": "/apps"
+    },
+    "getChangelog": {
+      "method": "GET",
+      "path": "/apps/:appId/changelog"
     }
   }
 }

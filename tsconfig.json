@@ -12,5 +12,8 @@
         ],
         "outDir": ".homeybuild/",
         "resolveJsonModule": true
-    }
+    },
+    "exclude": [
+        "settings-ui"
+    ]
 }

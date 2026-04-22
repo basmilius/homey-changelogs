@@ -14,13 +14,13 @@ export default class extends FlowActionEntity<ChangelogsApp, Args, never, Tokens
 
     async onRun(args: Args): Promise<Tokens> {
         const appInfo = await this.app.api.apps.getApp({id: args.app.id});
-        const result = await this.app.changelogs.fetchChangelog(appInfo.id, appInfo.version);
+        const result = await this.app.changelogs.fetchLatestChangelog(appInfo.id, appInfo.version);
 
         return {
             app_name: appInfo.name,
             version: appInfo.version,
-            changelog: result.text,
-            date: result.date
+            changelog: result?.text ?? '(changelog not available)',
+            date: result?.date ?? ''
         };
     }
 }

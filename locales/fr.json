@@ -1,0 +1,19 @@
+{
+  "settings": {
+    "title": "Changelogs",
+    "subtitle": "Un aperçu de vos applications Homey installées et de leurs changelogs.",
+    "apps": {
+      "title": "Applications installées",
+      "description": "Toutes les applications installées sur ce Homey. Appuyez sur une application pour voir son historique complet de changelogs.",
+      "empty": "Aucune application installée.",
+      "loading": "Chargement des applications…",
+      "no_changelog": "Aucun changelog disponible."
+    },
+    "changelog": {
+      "current_version": "Version actuelle",
+      "loading": "Chargement du changelog…",
+      "empty": "Aucun changelog disponible pour cette application.",
+      "close": "Fermer"
+    }
+  }
+}

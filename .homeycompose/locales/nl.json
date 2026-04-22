@@ -1,0 +1,19 @@
+{
+    "settings": {
+        "title": "Changelogs",
+        "subtitle": "Een overzicht van je geïnstalleerde Homey-apps en hun changelogs.",
+        "apps": {
+            "title": "Geïnstalleerde apps",
+            "description": "Alle apps die op deze Homey zijn geïnstalleerd. Tik op een app om de volledige changelog-historie te bekijken.",
+            "empty": "Geen apps geïnstalleerd.",
+            "loading": "Apps laden…",
+            "no_changelog": "Geen changelog beschikbaar."
+        },
+        "changelog": {
+            "current_version": "Huidige versie",
+            "loading": "Changelog laden…",
+            "empty": "Geen changelog beschikbaar voor deze app.",
+            "close": "Sluiten"
+        }
+    }
+}

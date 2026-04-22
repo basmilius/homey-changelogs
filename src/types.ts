@@ -34,3 +34,38 @@ export type ChangelogEntry = {
 export type ChangelogApiResponse = {
     readonly [version: string]: ChangelogEntry;
 };
+
+/**
+ * Represents a lightweight changelog preview for the settings list view.
+ */
+export type ChangelogPreview = {
+    readonly version: string;
+    readonly text: string;
+    readonly date: string;
+};
+
+/**
+ * Represents a single entry in the full changelog as shown in the modal.
+ */
+export type ChangelogEntryView = {
+    readonly version: string;
+    readonly text: string;
+    readonly date: string;
+    readonly rawDate: string;
+};
+
+/**
+ * Represents the full changelog for an app, sorted newest first.
+ */
+export type ChangelogFull = ChangelogEntryView[];
+
+/**
+ * Represents an installed app enriched with icon, accent color, and
+ * the latest changelog entry. Used by the settings overview.
+ */
+export type InstalledAppView = InstalledApp & {
+    readonly iconUrl: string | null;
+    readonly color: string | null;
+    readonly brandColor: string | null;
+    readonly latestChangelog: ChangelogPreview | null;
+};

@@ -1,0 +1,19 @@
+{
+    "settings": {
+        "title": "Changelogs",
+        "subtitle": "En översikt över dina installerade Homey-appar och deras ändringsloggar.",
+        "apps": {
+            "title": "Installerade appar",
+            "description": "Alla appar som är installerade på denna Homey. Tryck på en app för att se dess fullständiga ändringslogghistorik.",
+            "empty": "Inga appar installerade.",
+            "loading": "Laddar appar…",
+            "no_changelog": "Ingen ändringslogg tillgänglig."
+        },
+        "changelog": {
+            "current_version": "Nuvarande version",
+            "loading": "Laddar ändringslogg…",
+            "empty": "Ingen ändringslogg tillgänglig för denna app.",
+            "close": "Stäng"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "settings": {
+        "title": "Changelogs",
+        "subtitle": "Et overblik over dine installerede Homey-apps og deres ændringslogs.",
+        "apps": {
+            "title": "Installerede apps",
+            "description": "Alle apps installeret på denne Homey. Tryk på en app for at se den fulde historik over ændringslogs.",
+            "empty": "Ingen apps installeret.",
+            "loading": "Indlæser apps…",
+            "no_changelog": "Ingen ændringslog tilgængelig."
+        },
+        "changelog": {
+            "current_version": "Nuværende version",
+            "loading": "Indlæser ændringslog…",
+            "empty": "Ingen ændringslog tilgængelig for denne app.",
+            "close": "Luk"
+        }
+    }
+}

@@ -9,7 +9,8 @@
         "url": "https://github.com/basmilius/homey-changelogs/issues"
     },
     "scripts": {
-        "build": "tsc"
+        "build": "bun run build:settings && tsc",
+        "build:settings": "cd settings-ui && bun install && bun run build"
     },
     "dependencies": {
         "@basmilius/homey-common": "^1.23.0",

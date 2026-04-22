@@ -1,0 +1,19 @@
+{
+  "settings": {
+    "title": "Changelogs",
+    "subtitle": "Przegląd zainstalowanych aplikacji Homey i ich dzienników zmian.",
+    "apps": {
+      "title": "Zainstalowane aplikacje",
+      "description": "Wszystkie aplikacje zainstalowane na tym Homey. Dotknij aplikacji, aby zobaczyć pełną historię dziennika zmian.",
+      "empty": "Brak zainstalowanych aplikacji.",
+      "loading": "Ładowanie aplikacji…",
+      "no_changelog": "Brak dostępnego dziennika zmian."
+    },
+    "changelog": {
+      "current_version": "Bieżąca wersja",
+      "loading": "Ładowanie dziennika zmian…",
+      "empty": "Brak dostępnego dziennika zmian dla tej aplikacji.",
+      "close": "Zamknij"
+    }
+  }
+}

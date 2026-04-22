@@ -162,6 +162,16 @@
       }
     }
   },
+  "api": {
+    "getApps": {
+      "method": "GET",
+      "path": "/apps"
+    },
+    "getChangelog": {
+      "method": "GET",
+      "path": "/apps/:appId/changelog"
+    }
+  },
   "flow": {
     "triggers": [
       {

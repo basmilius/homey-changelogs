@@ -5,7 +5,7 @@
     "": {
       "name": "com.basmilius.changelogs",
       "dependencies": {
-        "@basmilius/homey-common": "^1.23.0",
+        "@basmilius/homey-common": "^1.25.0",
         "homey-api": "^3.18.3",
       },
       "devDependencies": {
@@ -18,7 +18,7 @@
     },
   },
   "packages": {
-    "@basmilius/homey-common": ["@basmilius/homey-common@1.23.0", "", {}, "sha512-o/hM91cScg6369DJAHDrC05zqULjUWOQ0W+C87UzQqpoNP4tJVD9CmgdmiDcN9HrZAFYHnX2q4BjlHEypl5bIg=="],
+    "@basmilius/homey-common": ["@basmilius/homey-common@1.25.0", "", { "dependencies": { "@tsconfig/node22": "^22.0.6" } }, "sha512-hmExesTqshMAas72t70EUWVmPYEt9RO4OQeAdIX28Uwvjkkn+UJi5AA0tk2YigadpVpPtf7zH5jDIYVvb5G8Kw=="],
 
     "@tsconfig/node22": ["@tsconfig/node22@22.0.5", "", {}, "sha512-hLf2ld+sYN/BtOJjHUWOk568dvjFQkHnLNa6zce25GIH+vxKfvTgm3qpaH6ToF5tu/NN0IH66s+Bb5wElHrLcw=="],
 
@@ -131,6 +131,8 @@
     "xmlhttprequest-ssl": ["xmlhttprequest-ssl@1.6.3", "", {}, "sha512-3XfeQE/wNkvrIktn2Kf0869fC0BN6UpydVasGIeSm2B1Llihf7/0UfZM+eCkOw3P7bP4+qPgqhm7ZoxuJtFU0Q=="],
 
     "yeast": ["yeast@0.1.2", "", {}, "sha512-8HFIh676uyGYP6wP13R/j6OJ/1HwJ46snpvzE7aHAN3Ryqh2yX6Xox2B4CUmTwwOIzlG3Bs7ocsP5dZH/R1Qbg=="],
+
+    "@basmilius/homey-common/@tsconfig/node22": ["@tsconfig/node22@22.0.6", "", {}, "sha512-/5thavHAnWDZwH2H6eEn/T8pBEBhtuKaWGMslsj82kJfvzQgOgEMK7X4goBbIUjgVtAzPTtM9Ml64LA0uxO6Iw=="],
 
     "@types/homey/@types/node": ["@types/node@14.18.63", "", {}, "sha512-fAtCfv4jJg+ExtXhvCkCqUKZ+4ok/JQk01qDKhL5BDDoS3AxKXhV5/MAVUZyQnSEd2GT92fkgZl0pz0Q0AzcIQ=="],
   }

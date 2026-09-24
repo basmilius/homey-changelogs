@@ -14,7 +14,7 @@
         "build:settings": "cd settings-ui && bun install && bun run build"
     },
     "dependencies": {
-        "@basmilius/homey-common": "^1.23.0",
+        "@basmilius/homey-common": "^1.25.0",
         "homey-api": "^3.18.3"
     },
     "devDependencies": {
